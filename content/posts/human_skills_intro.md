@@ -4,10 +4,7 @@ title: 'Human Skills: Deep Evaluation of Frontier AI Tools Across Multiple Domai
 weight: 1
 math: true
 description: 'Human Skills 项目基本介绍'
-summary: "Abstract shown in cards"
-cover:
-    # image: "images/demo.png" # image path/url
-    relative: false # when using page bundles set this to true
+summary: "Abstract shown in cards, to be finished"
 ---
 
 ## Introductions
