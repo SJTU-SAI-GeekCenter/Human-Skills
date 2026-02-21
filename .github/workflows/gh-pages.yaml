@@ -2,12 +2,8 @@ name: Deploy Hugo PaperMod to Pages
 
 on:
   push:
-    paths-ignore:
-      - "images/**"
-      - "LICENSE"
-      - "README.md"
     branches:
-      - master
+      - main
   workflow_dispatch:
     # manual run
     inputs:
