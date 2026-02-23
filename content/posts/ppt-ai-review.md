@@ -175,6 +175,41 @@ Gamma 的配图主要由内置模型生成。采用此方法生成的配图，�
 ### 3、调整与反馈能力
 Gamma 在用户交互层面考虑得很细致：在文本上，对于文本内容的问题，用户可直接与 Gamma 内置模型协作进行修改；对于文本分布、格式的问题，用户能够直接使用内置工具栏进行快速修改。
 
+对于图片、表格的插入，Gamma 具有相当完备的功能。如果对 AI 自动匹配的图片不满意，用户可以通过点击图片，直接唤出搜索框/本地上传/AI 绘图进行调整。
+
+![17图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/17.png)
+![18图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/18.png)
+此外，对于一些特殊的元素，如代码块、数学公式等，Gamma 都能直接支持，这也是 Gamma 在学术/技术类演示场景下的一大杀器。
+
+---
+
+## ChatPPT 使用测评
+
+### 1、ChatPPT 使用流程简述
+0. 网站：chat-ppt.com
+1. 将提示词输入常用大模型软件（DeepSeek, 豆包等）生成初版大纲。
+2. 将初版大纲粘贴至 ChatPPT 中，生成第二版大纲。
+3. 与 ChatPPT 交互，修改第二版大纲。
+4. 确定大纲，ChatPPT 开始生成 PPT。
+5. 自行修改 PPT。
+
+### 2、核心功能测评
+
+#### （1）输出质量和稳定性：输出的专业性、准确性和可靠性
+
+**① 风格设计**
+在生成风格时，ChatPPT 会询问演讲场景和面向人群，以确认更加精细的要求，如下图：
+
+![19图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/19.png)
+
+**② 图片质量**
+在生成图片时，有两种选择：其一是选择使用自己的图库，其二是 AI 生成。AI 生成有两种选择，一个是使用已经生成好的 AI 图库里的内容，另一个是 AI 实时绘图。其中 AI 实时绘图是需要 SVIP 才能使用，但这项功能在其他 PPT AI 类产品中大多是免费功能或基本功能。而且，生成的图片质量较差，图片中涉及文字生成时，往往会生成混乱的符号，有时图文并不相关。
+
+![20图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/20.png)
+
+
+
+
 
 
 
