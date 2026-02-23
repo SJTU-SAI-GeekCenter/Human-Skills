@@ -1,8 +1,7 @@
 ---
-title: "从逻辑到视觉：六款主流 PPT AI 工具深度横向测评"
-date: 2024-05-20
-description: "探索人、大模型与 PPT AI 的协同工作流，寻找最强的数字演示助手。"
-summary: "探索人、大模型与 PPT AI 的协同工作流，寻找最强的数字演示助手。"
+title: "Human Skills——PPT生成类AI测评"
+date: 2026-02-23
+description: "探索人、大模型与 PPT AI 的协同工作流，以及不同使用情境下的PPT AI推荐"
 tags: ["AI测评", "生产力", "SJTU-SAI"]
 categories: ["技术分享"]
 author: "罗梓宸, 陈秋实, 赵博"
