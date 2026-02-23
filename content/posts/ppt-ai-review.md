@@ -207,13 +207,119 @@ Gamma 在用户交互层面考虑得很细致：在文本上，对于文本内�
 
 ![20图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/20.png)
 
+至于其说到的使用 Nanobanana 进行绘图，似乎就更加让人失望了。
+
+**③ 文本**
+ChatPPT 在生成文本时，并不能正确区分大纲和需要生成的内容的区别，往往会把用户提出的具体要求，如“这段文字大约 2 分钟讲完”、“这段风格要活泼”等内容，直接呈现在 PPT 中。如下图：
+
+![21图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/21.png)
+
+此外，ChatPPT 生成的文本大多十分单薄，无法达到进行展示的要求，对于大纲中指出需要扩充的部分也未能进行扩充。所以，文本部分只能由用户自行补充完整。
+
+#### 2. 用户个性化要求实现能力
+在本次测试的所有 demo 中，我们都加入了个性化的特定场景，如在生成“社团” PPT 时，我们对其进行了细致的区分，将这一场景细分成了三个具体的情景（社团招新，重点社团申请，社团文化节宣传），并让 ChatPPT 制作了三份不同的 PPT。
+
+在这方面，ChatPPT 的效果是不错的，可以精准地区分三个 PPT 的受众与场所不同带来的风格差别，这或许得益于在创建大纲时，ChatPPT 对用户进行的细致提问。但是，在内容生成方面，ChatPPT 依然不能识别要求和内容的区别，会把情境的不同直接展示在 PPT 上，让观感并不好。
+
+此外，面对预设的情景，ChatPPT 也只会把情景写在 PPT 上，而不会委婉地展示，比如我们在其中一个 demo 中预设了专家的考核，而 ChatPPT 是这样解决的：
+
+![22图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/22.png)
+
+#### 3. 调节与反馈能力
+在调节与反馈能力上，ChatPPT 的能力几乎等于 0，除了大纲可以进行修改，对后续的修改，ChatPPT 可以说是什么都做不到。这种做不到体现在两方面：
+
+* **第一点，对指令不理解：**
+![23图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/23.png)
+
+* **第二点，无法正确地作出修改：**
+![24图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/24.png)
+
+总之，ChatPPT 这种半成品的感觉确实让人难以接受。这款产品并不适合用于直接生成 PPT，而更适合作为一种辅助设计的插件。
+
+---
+
+## Canva 使用测评
+
+### 1、Canva 使用流程简述
+0. 网站：canva.com
+1. 参照测评方案介绍部分，使用大模型生成大纲
+2. 登录 Canva，点击“创建设计”，搜索并进入“魔法设计 (Magic Design)”
+3. 投喂大纲
+4. 选择风格，生成 PPT
+
+### 2、核心功能测评
+
+#### （1）视觉效果
+整体视觉偏现代/卡通/优美/简约，可在生成之前选择风格，列表如下：
+
+![25图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/25.png)
+
+同一个文件前后视觉风格能保持高度连贯，由于是较专业的设计软件，模板很丰富，色彩丰富，以鲜艳为主。
+
+![26图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/26.png)
+![27图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/27.png)
+在局部设计上，Canva貌似并不擅长，很少见组件和图表，其所做的大部分是在模板背景上添加文本框和图片，部分局部设计仅限于下图的简单组件，且中文字体单一。
+
+![28图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/28.png)
+
+可见，Canva的设计倾向整体的风格一致，局部设计能力偏弱。
+
+（2）文本生成
+Canva AI能根据用户提示词生成一些简单小标题和句子，少见长段文字，在用户要求之后可以进行扩写，文字的质量不错。对于大纲中文字的要求，Canva AI则会进行一些简化。
+
+![29图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/29.png)
+![30图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/30.png)
+相比于其他工具，基本不会出现把指令直接当作文案输入进去的情况，可见模型的总结能力还是不错的。
+
+#### （3）配图
+主要为 AI 生成和图库检索（会带有 Canva 水印），相关度尚可，生成的图片卡通风格更多些。
+
+![31图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/31.png)
+
+![32图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/32.png)
+
+### 2、 用户个性化要求的实现能力
+在本次测试的所有 demo 中，我们都加入了针对特定场景的要求，如：
+【重点页面】零基础友好保障 (打消顾虑)
+标题：零基础学习，完全可以实现
+![33图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/33.png)
+可见，我们的测评对象只是简单给标题篇配图，并没有突出的意味，在这项能力上明显是相对较弱的。
 
 
+### 3、 调整与反馈能力
+Canva AI 支持聊天交互，会主动确认部分细节，也支持在生成完成之后提出要求进行修改，不过这里的修改大部分时候是重新生成整个幻灯片，不支持单页面调整。通常其会生成两三套不同的设计供用户选择，并在生成后可以由用户自主在编辑页面使用各种图形设计工具，以弥补 AI 生成幻灯片设计缺乏的问题。
+整体来说， Canva AI 智能化程度较高，模板丰富，不过乏于自动化设计和要点突出显示。
+
+---
+
+## Beautiful AI 试用测评
+
+### 一、使用流程简述
+0、 登录 beautiful . ai 网站（需使用 VPN ）->创建演示文稿-> Create With AI
+1、 参照前言，使用 Deepseek 模型生成 PPT 大纲。
+2、 输入生成好的提示词，等待生成大纲后进行交互确认，选择主题风格、图源（网络  /Beautiful 图库/ AI 生成）和语言。
+3、 生成 PPT
+
+### 二、核心功能测评
+#### 1、 输出质量与稳定性：输出的专业性、准确性和可靠性
+**（1）视觉效果**
+整体色调以黑白为主，简约大气，质量稳定。供选择的 Theme 主要的区别在于色调冷暖和字体风格。页面间的设计连贯，动画流畅，让用户比较舒心。
+![34图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/34.png)
+![35图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/35.png)
+![36图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/36.png)
+
+在局部设计呈现方面， Beautiful . ai 能较合理地穿插使用各种设计元素，能把提示词里的设计要求大部分实现，也有部分不能准确识别，呈现下图的情况。
+![37图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/37.png)
 
 
+总体来说，视觉效果较好且通用。
 
+**（2）文本生成**
+文本部分，能基本分辨大模型生成大纲中的文案与指令，也难免会出现照抄“获奖趋势与奖项分布”“本页面是封面页”文本这种情况，文案自主编辑扩写能力一般，能自主完成小标题和短句的写作。更多时候， PPT 所包含的文案是占位指示性的，提出主旨引导用户自己编辑和改写，因此其职能倾向于让用户在其设计基础上进行文案的优化。
+![38图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/38.png)
+近期（2026年2月9日左右）， Beautiful . ai 迎来一次更新，原有的语言模块选择变得很少，且没有中文（以前基本支持所有语言），这一点对国内用户不是很友好。在提示词界面明确强烈要求使用中文制作，并将语言设为” Auto ”后仍有几率发生通篇或者部分页面使用英文的情况，差强人意。下图展示了中文PPT里夹杂的英文页面：
 
-
+![39图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/39.png)
 
 
 
