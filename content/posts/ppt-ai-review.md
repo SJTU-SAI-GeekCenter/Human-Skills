@@ -149,162 +149,34 @@ WPS AI 对于两个问题的修改能力基本符合实际应用要求。
 ![8图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/8.png)
 ![9图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/9.png)
 
-在局部呈现上，Gamma 的表现相当出色。例如：在 WPS AIPPT 测评中，我们曾针对“路径图”的生成进行了讨论。在测评 Gamma 时，我们也同样向它抛出了这个难题，下面是 Gamma 的应对：
-
+在局部呈现上，Gamma 的表现相当出色。例如：在 WPS AIPPT 测评中， we 曾针对“路径图”的生成进行了讨论。在测评 Gamma 时，我们也同样向它抛出了这个难题，下面是 Gamma 的应对：
 
 ![10图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/10.png)
-
-可以看到，Gamma 在这方面的表现远超 WPS AI，其能够很好地理解用户给出的“呈现形式”的要求，并将其转化为实际的视觉元素。
+![11图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/11.png)
+可以看到，Gamma 交出了一份令人满意的答卷。
 
 #### （2）文本
-文本部分，由于 Gamma 支持“根据笔记或者大纲生成”的模式，其对大纲内容的保留程度较高。同时，Gamma 具有较强的语义理解和扩写能力，能够在大纲的基础上，根据选定的主题自动补充相关的细节描述，使 PPT 内容更加充实。
-
-#### （3）配图
-Gamma 在配图方面表现出了极高的智能度。它不仅能自动匹配网络图片，还能通过内置的 AI 绘图引擎生成符合语境的插图。在测试中，其配图的准确性与美感均处于较高水平。
-
-### 3、用户个性化要求的实现能力
-Gamma 对复杂指令的执行能力较强。在“零基础友好保障”页面的测试中，它能够准确区分左侧的路径图与右侧的支持体系，并按照要求进行排版呈现：
-
-![11图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/11.png)
-
-### 4、调节与反馈能力
-Gamma 提供了非常便捷的 AI 编辑侧边栏。用户可以通过对话框直接命令 AI 修改某一页的布局、更换图片或重写文案。
+与本次所测评的几个其它 PPT AI 工具相比，Gamma 的文本生成能力十分亮眼。在我们 5 份 demo 的测评中，Gamma 并没有出现其余所有 PPT AI 所出现的问题，如误读大纲，扩写能力不足等，下面仍然列出两个例子：
 
 ![12图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/12.png)
+![13图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/13.png)
 
-这种基于自然语言的交互方式极大降低了后期微调的难度。
+#### （3）配图
+Gamma 的配图主要由内置模型生成。采用此方法生成的配图，往往在设计上会更加贴切，因为 AI 能够更好地根据 PPT 主题/模板的设计风格（色调、画风等）进行图片的创作，但其缺点仍在：AI 在把握大纲/文案对图片细节的要求时往往就更加容易出错。同样令人意外的是，Gamma 在对于配图的文案匹配度、配图细节（如文字）等的处理上也得心应手。
 
----
+![14图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/14.png)
 
-## ChatPPT 使用测评
+### 2、用户个性化要求的实现能力
+也正如前文所述，对于用户在画面设计上的要求，Gamma 基本都能够从容地应对。在内容上，Gamma 也具备了极强的需求实现能力。不论是在大纲生成 PPT 阶段，还是 PPT 生成后的用户调整阶段，Gamma 都配置了丰富的工具库。
 
-### 一、ChatPPT 使用流程
-0. 网站：chat-ppt.com
-1. 将提示词输入常用大模型软件（DS, 豆包等）生成初版大纲
-2. 将初版大纲粘贴至 ChatPPT 中，生成第二版大纲
-3. 与 ChatPPT 交互，修改第二版大纲
-4. 确定大纲，ChatPPT 开始生成 PPT
-5. 自行修改 PPT
-
-### 二、核心功能测评
-
-#### 1、输出质量和稳定性：输出的专业性、准确性和可靠性
-
-**（1）风格设计**
-在生成风格时，ChatPPT 会询问演讲场景和面向人群，以确认更加精细的要求，如下图：
-
+![15图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/15.png)
 ![16图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/16.png)
 
-**（2）图片质量**
-在生成图片时，有两种选择：其一是选择使用自己的图库，其二是 AI 生成。AI 生成有两种选择，一个是使用已经生成好的 AI 图库里的内容，另一个是 AI 实时绘图。其中 AI 实时绘图是需要 SVIP 才能使用，但这项功能在其他 PPT AI 类产品中大多是免费功能或基本功能。而且，生成的图片质量奇差，图片中涉及文字生成时，往往会生成混乱的符号，有时图文并不相关。
+### 3、调整与反馈能力
+Gamma 在用户交互层面考虑得很细致：在文本上，对于文本内容的问题，用户可直接与 Gamma 内置模型协作进行修改；对于文本分布、格式的问题，用户能够直接使用内置工具栏进行快速修改。
 
-至于其说到的使用 Nanobanana 进行绘图，似乎就更加让人失望了。
 
-**（3）文本**
-ChatPPT 在生成文本时，并不能正确区分大纲和需要生成的内容的区别，往往会把用户提出的具体要求，如“这段文字大约 2 分钟讲完”、“这段风格要活泼”等内容，直接呈现在 PPT 中。如下图：
 
-![17图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/17.png)
-
-此外，ChatPPT 生成的文本大多十分单薄，无法达到进行展示的要求，对于大纲中指出需要扩充的部分也未能进行扩充。所以，文本部分只能由用户自行补充完整。
-
-#### 2. 用户个性化要求实现的能力
-在本次测试的所有 demo 中，我们都加入了个性化的特定场景，如在生成“社团” PPT 时，我们对其进行了细致的区分，将这一场景细分成了三个具体的情景（社团招新，重点社团申请，社团文化节宣传），并让 ChatPPT 制作了三份不同的 PPT。
-
-在这方面，ChatPPT 的效果是不错的，可以精准地区分三个 PPT 的受众与场所不同带来的风格差别，这或许得益于在创建大纲时，ChatPPT 对用户进行的细致提问。但是，在内容生成方面，ChatPPT 依然不能识别要求和内容的区别，会把情境的不同直接展示在 PPT 上，让观感并不好。
-
-此外，面对预设的情景，ChatPPT 也只会把情景写在 PPT 上，而不会委婉地展示，比如我们在其中一个 demo 中预设了专家的考核，而 ChatPPT 是这样解决的：
-
-![18图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/18.png)
-
-#### 3、调节与反馈能力
-在调节与反馈能力上，ChatPPT 的能力几乎等于 0，除了大纲可以进行修改，对后续的修改，ChatPPT 可以说是什么都做不到。这种做不到体现在两方面：
-
-* **第一点，对指令不理解：**
-![19图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/19.png)
-
-* **第二点，无法正确地作出修改：**
-![20图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/20.png)
-
-总之，ChatPPT 从名字上看，似乎就是在“碰瓷”某知名 AI 应用，在实际体验过后，这种半成品的感觉就更加让人难以接受了。这款产品并不适合用于直接生成 PPT，而更适合作为一种辅助设计的插件或工具。
-
----
-
-## Canva 使用测评
-
-### 1、Canva 使用流程简述
-0. 网站：canva.com
-1. 参照测评方案介绍部分，使用大模型生成大纲。
-2. 在 Canva 首页选择“魔法设计”，输入大纲内容。
-3. 选择设计风格。
-4. 自动生成并进入编辑器界面。
-
-### 2、核心功能测评
-
-#### （1）视觉效果
-Canva 的核心优势在于其庞大的设计资产库。生成的 PPT 极具设计感，色彩搭配与元素运用非常现代，非常适合需要视觉冲击力的演示场景。
-
-![21图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/21.png)
-
-#### （2）文本处理
-在文本处理上，Canva 能够较好地将大纲内容分布到各个页面中。但它对中文大纲的深度理解能力略逊于 WPS AI 和 Gamma，有时会直接复述大纲文字而缺乏合理的扩写。
-
-#### （3）反馈能力：对话式修改
-Canva 允许用户直接对选中的元素进行魔法变换。例如，用户可以框选一段文字，要求 AI “转为列表”或“更改为更专业的语气”：
-
-![22图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/22.png)
-
-这一功能对于统一生成时所遗漏的要素进行补充非常有效。
-
----
-
-## Beautiful.ai 使用测评
-
-### 1、Beautiful.ai 使用流程简述
-0. 网站：beautiful.ai
-1. 投喂大纲。
-2. AI 自动选择智能模板进行排版。
-3. 用户通过侧边栏进行样式调节。
-
-### 2、核心功能测评
-Beautiful.ai 的特色在于“智能限制”，它不让用户随意拖动元素，从而保证了排版的绝对美观。
-
-![23图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/23.png)
-
-在配图方面，它的库质量极高，生成的每一页都像是由专业设计师打造的。
-
----
-
-## AIPPT 使用测评
-
-### 1、AIPPT 使用流程简述
-0. 网站：aippt.cn
-1. 直接导入大纲或使用内置 AI 生成大纲。
-2. 确认大纲后，选择模板。
-3. 生成 PPT。
-
-### 2、核心功能测评
-AIPPT 的中文适配度非常高，在处理中文大纲时的逻辑拆解非常符合国内用户的使用习惯。
-
-![24图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/24.png)
-
----
-
-## 二、对比与总结
-
-在对上述六款工具进行深度体验后，我们将其各项能力进行了汇总对比：
-
-![25图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/25.png)
-
-通过对比可以看出，不同的工具各有千秋：
-- **Gamma** 和 **Canva** 在设计感和交互修改上领先；
-- **WPS AI** 胜在与本地办公软件的深度集成；
-- **AIPPT** 则在中文语境的理解上表现稳健。
-
-我们还尝试让大模型对整个测评过程中的各工具表现进行了总结归纳，结果如下：
-
-![26图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/26.png)
-
-可见模型的总结能力还是不错的。
 
 
 
