@@ -319,9 +319,12 @@ Canva AI 支持聊天交互，会主动确认部分细节，也支持在生成�
 文本部分，能基本分辨大模型生成大纲中的文案与指令，也难免会出现照抄“获奖趋势与奖项分布”“本页面是封面页”文本这种情况，文案自主编辑扩写能力一般，能自主完成小标题和短句的写作。更多时候， PPT 所包含的文案是占位指示性的，提出主旨引导用户自己编辑和改写，因此其职能倾向于让用户在其设计基础上进行文案的优化。
 
 ![39图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/39.png)
+
+![40图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/40.png)
 近期（2026年2月9日左右）， Beautiful . ai 迎来一次更新，原有的语言模块选择变得很少，且没有中文（以前基本支持所有语言），这一点对国内用户不是很友好。在提示词界面明确强烈要求使用中文制作，并将语言设为” Auto ”后仍有几率发生通篇或者部分页面使用英文的情况，差强人意。下图展示了中文PPT里夹杂的英文页面：
 
 
+![41图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/41.png)
 
 
 
