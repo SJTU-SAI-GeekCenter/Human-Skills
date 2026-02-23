@@ -344,6 +344,8 @@ Canva AI 支持聊天交互，会主动确认部分细节，也支持在生成�
 ![44图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/44.png)
 ![45图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/45.png)
 ![46图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/46.png)
+![47图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/47.png)
+![48图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/48.png)
 总之，该工具在设计上的能力较为出色，但在提示词处理、语言选择、调整反馈等方面依然有提升潜力，是一款不错的提升效率的设计工具。
 
 ### 二、核心功能测评
