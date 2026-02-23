@@ -341,11 +341,13 @@ Canva AI 支持聊天交互，会主动确认部分细节，也支持在生成�
 3、调整与反馈能力
 目前， BeautifulAI 尚不支持在生成输出之后再一次通过提示词进行页面改动的功能。取而代之的是，它在生成之后每一页面都提供几张备选成片，并支持更改主题颜色、图文排版、播放动画等项目。
 ![43图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/43.png)
-![44图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/44.png)
-![45图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/45.png)
-![46图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/46.png)
-![47图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/47.png)
-![48图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/48.png)
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/44.png?raw=true" width="30%" />
+  <img src="https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/45.png?raw=true" width="30%" />
+  <img src="https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/46.png?raw=true" width="30%" />
+  <img src="https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/47.png?raw=true" width="30%" />
+  <img src="https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/48.png?raw=true" width="30%" />
+</div>
 总之，该工具在设计上的能力较为出色，但在提示词处理、语言选择、调整反馈等方面依然有提升潜力，是一款不错的提升效率的设计工具。
 
 ### 二、核心功能测评
