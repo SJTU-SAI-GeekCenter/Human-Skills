@@ -54,7 +54,7 @@ TocOpen: true
 6. **循环迭代**：若调整大纲，则跳转至步骤 2 或步骤 3 的修改部分。
 
 #### （2）流程图展示
-![Beautiful图]([https://github.com/claptrapp222/Human-Skills/blob/main/static/img/图片1.png](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/%E5%9B%BE%E7%89%871.png))
+![1图](https://github.com/claptrapp222/Human-Skills-1/blob/main/static/img/1.png)
 
 ### 4. 测评维度
 此次，我们主要从以下三个大方向、五个方面对 PPT AI 工具进行测评：
