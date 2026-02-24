@@ -602,3 +602,8 @@ Copilot确实实现了功能，在忽略其网络连接波动带来的重试下�
 o 无论是标准模式还是推理模式，Cursor 都能精准定位组件库位置 (src/components/Toolbar.tsx)。
 o UI 复用： 完美复用了 Excalidraw 内部的 <Island> 和 <Button> 组件，样式与原项目完全一致。
  ![24图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image24.png)
+
+ 各项ide的具体评分表:
+ [积分表](https://github.com/claptrapp222/Human-Skills/blob/main/static/files/%E7%A7%AF%E5%88%86%E8%A1%A8.xlsx)
+ 美观度问卷:
+ [美观度问卷]([链接](https://github.com/claptrapp222/Human-Skills/blob/main/static/files/%E7%BE%8E%E8%A7%82%E5%BA%A6%E9%97%AE%E5%8D%B7.xlsx))
