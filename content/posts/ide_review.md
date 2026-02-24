@@ -606,4 +606,4 @@ o UI 复用： 完美复用了 Excalidraw 内部的 <Island> 和 <Button> 组件
  各项ide的具体评分表:
  [积分表](https://github.com/claptrapp222/Human-Skills/blob/main/static/files/%E7%A7%AF%E5%88%86%E8%A1%A8.xlsx)
  美观度问卷:
- [美观度问卷]([链接](https://github.com/claptrapp222/Human-Skills/blob/main/static/files/%E7%BE%8E%E8%A7%82%E5%BA%A6%E9%97%AE%E5%8D%B7.xlsx))
+ [美观度问卷](https://github.com/claptrapp222/Human-Skills/blob/main/static/files/%E7%BE%8E%E8%A7%82%E5%BA%A6%E9%97%AE%E5%8D%B7.xlsx)
