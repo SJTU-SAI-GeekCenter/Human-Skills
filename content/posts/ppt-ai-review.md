@@ -3,11 +3,13 @@ title: "Human Skills——PPT生成类AI测评"
 date: 2026-02-23
 description: "探索人、大模型与 PPT AI 的协同工作流，以及不同使用情境下的PPT AI推荐"
 tags: ["AI测评", "生产力", "SJTU-SAI"]
-categories: ["技术分享"]
+categories: ["Human Skills"]
 author: "罗梓宸, 陈秋实, 赵博"
 showToc: true
 TocOpen: true
 ---
+
+**测评人：罗梓宸, 陈秋实, 赵博**
 
 # 主流 PPT AI 测评
 
