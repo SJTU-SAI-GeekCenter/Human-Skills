@@ -102,7 +102,7 @@ Aider在此环节表现出统治级的优势，这归功于其独有的Repo Map�
 
 - 评价：它像一个自带Language Server Protocol (LSP)的资深同事，对项目结构了如指掌。
 
-1. **Claude Code (L1 专家级：Agentic 搜索)**
+2. **Claude Code (L1 专家级：Agentic 搜索)**
 
 Claude Code同样完成了任务，但路径不同。它依赖强大的Agentic Search能力。
 
@@ -112,7 +112,7 @@ Claude Code同样完成了任务，但路径不同。它依赖强大的Agentic S
 
 - 评价：虽然比Aider多了几步“思考”和“搜索”的动作，但其逻辑严密性非常适合大型陌生代码库的探索与重构。
 
-1. **OpenCode (L2 辅助级：需人工引导)**
+3. **OpenCode (L2 辅助级：需人工引导)**
 
 OpenCode的表现高度依赖所选模型（如GLM-4.7）和模式。
 
@@ -120,7 +120,7 @@ OpenCode的表现高度依赖所选模型（如GLM-4.7）和模式。
 
 - 结果：需要用户进行一轮Prompt引导（“请检查其他文件是否引用了该函数”），才能实现闭环。
 
-1. **Qwen-Coder (L3 工具级：依赖大上下文)**
+4. **Qwen-Coder (L3 工具级：依赖大上下文)**
 
 Qwen拥有巨大的上下文窗口（Context Window），但缺乏自动的“项目地图”机制。
 
@@ -169,7 +169,7 @@ Qwen同样无法支持无头管道模式。值得注意的是，Qwen-Coder在生
 
 ![](images/cli/3.png)
 
-**1. 提交内容的规范性与深度**
+**提交内容的规范性与深度**
 
 - **Opencode (结构化叙事)**：
 
@@ -244,7 +244,7 @@ Aider展现了最高级别的安全意识。从思维链（Chain of Thought）�
 
 ![](images/cli/4.png)
 
-1. **Qwen & Opencode (L2 稳健级：隐式修正)**
+2. **Qwen & Opencode (L2 稳健级：隐式修正)**
 
 这两款工具表现出了良好的稳健性，但处理过程相对“黑盒”。
 
@@ -256,7 +256,7 @@ Aider展现了最高级别的安全意识。从思维链（Chain of Thought）�
 
 ![](images/cli/5.png)
 
-1. **Claude Code (L2 稳健级：代码质量一般)**
+3. **Claude Code (L2 稳健级：代码质量一般)**
 
 Claude同样没有产生幻觉，但在代码实现的质量上略显粗糙。
 
@@ -377,15 +377,15 @@ Claude同样没有产生幻觉，但在代码实现的质量上略显粗糙。
 
 原因：官方出品，安装简单（npm），认证流程极简。它更像是一个对话框，自动处理大部分文件添加逻辑，不需要用户频繁手动/add。
 
-1. **Aider (入门容易，进阶略难 ⭐⭐)**：
+2. **Aider (入门容易，进阶略难 ⭐⭐)**：
 
 原因：虽然安装即用，但其核心工作流依赖Git（必须有git repo）。用户需要学习如何有效地/add文件以及理解不同的chat-mode来获取最佳效果。
 
-1. **QwenCode (中等难度 ⭐⭐⭐)**：
+3. **QwenCode (中等难度 ⭐⭐⭐)**：
 
 原因：涉及到更多的MCP (Model Context Protocol)概念和内存管理。在配置非官方提供的代理（如使用LiteLLM）时，环境变量的设置相对繁琐。
 
-1. **OpenCode (较高难度 ⭐⭐⭐⭐)**：
+4. **OpenCode (较高难度 ⭐⭐⭐⭐)**：
 
 原因：主打多智能体协作和高度自定义。用户往往需要自行配置复杂的API路由、选择不同的Agent角色，适合喜欢折腾配置以追求极致性能的高级玩家。
 
@@ -434,19 +434,19 @@ Constraint: 如果遇到你不确定逻辑的复杂函数，请在Docstring中�
 
 理由: 质量最高。尽管有微小的瑕疵，但其在完整性、可读性、准确性和代码意图的传达上远超所有AI工具。模块级文档和用法示例是其脱颖而出的关键。
 
-1. **[cli_claude.py](cli_claude.py) (Claude)**
+2. **[cli_claude.py](cli_claude.py) (Claude)**
 
 理由: AI工具中的最佳选择。其严格的格式规范性和详细的属性描述使其生成的文档非常专业和实用。如果能补充模块级文档，质量会更高。
 
-1. **[cli_opencode.py](cli_opencode.py) (Opencode-Coder)**
+3. **[cli_opencode.py](cli_opencode.py) (Opencode-Coder)**
 
 理由: 表现中等。覆盖面是其优点，但在描述的准确性和深度上有所欠缺，更像一个“合格但不出彩”的文档生成器。
 
-1. **[cli_aider.py](cli_aider.py) (Aider)**
+4. **[cli_aider.py](cli_aider.py) (Aider)**
 
 理由: 过于简洁。虽然简洁本身不是坏事，但它牺牲了文档的完整性和深度，导致其价值有所降低。
 
-1. **[cli_qwen.py](cli_qwen.py) (Qwen)**
+5. **[cli_qwen.py](cli_qwen.py) (Qwen)**
 
 理由: 质量最差。完全没有遵循Google风格的格式要求，使其生成的docstring在规范性和实用性上大打折扣。这在需要统一代码风格的项目中是不可接受的。
 
