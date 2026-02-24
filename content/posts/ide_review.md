@@ -1,5 +1,5 @@
 ---
-title: "AI驱动IDE深度测评报告"
+title: "Human Skills———AI驱动IDE深度测评报告"
 date: 2026-02-24
 author: ["刘诚", "钱鑫宇", "张乐恒"]
 description: "深度测评 Cursor、Windsurf、Trae、通义灵码、Qoder 及 Copilot 等主流 AI IDE，通过多维度量化指标与实战案例，探索 AI 原生开发环境的演进方向。"
