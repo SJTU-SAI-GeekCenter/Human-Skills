@@ -527,3 +527,38 @@ Prompt：帮我生成一个植物大战僵尸的小游戏
 ![16图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image16.png)
 
 很快生成好了大致的游戏结构，但是玩法是不正确的，可以看到僵尸在距离向日葵有一段距离的时候向日葵的血量下降了，后来发现是代码逻辑错误，认为僵尸在向日葵同一行左侧就扣血，经过提示修改，效果恢复正常。
+![17图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image17.png)
+
+### 3.3 Demo 3：开源项目Excalidraw深度修改
+测试目的：考察AI IDE对大型、复杂开源项目的代码理解能力、跨文件重构能力以及上下文感知能力。
+项目背景：Excalidraw是一个基于TypeScript的虚拟白板工具，TypeScript类型定义严格，代码耦合度高，适合作为高难度测试样本。
+环境准备：
+由于国内网络环境限制，测试前需完成项目克隆与依赖安装（建议通过配置Git代理或下载ZIP包解决GitHub连接问题），确保 yarn start 可成功启动项目。
+测试用例 1：全库检索与“幻觉”测试
+· 任务：询问Excalidraw画布默认背景颜色的定义位置，并尝试修改为淡蓝色 #e6f7ff。
+· 考察点：AI是否真的阅读了代码库，而非编造通用的CSS方案。
+测试用例 2：核心接口重构
+· 任务：为核心接口 ExcalidrawElement 增加新字段 authorName，并要求AI处理所有创建新元素、复制元素及数据恢复的逻辑，确保TypeScript编译不报错。
+· 考察点：这是分水岭级别的测试。普通IDE可能只修改定义而导致全项目报错，顶级IDE应能自动修改所有引用点。
+测试用例 3：新功能开发
+· 任务：在顶部工具栏增加“统计”按钮，点击后弹出Alert显示当前画布元素总数，并复用现有UI风格。
+· 考察点：考察AI对UI组件库的熟悉程度及对App State状态的读取能力。
+
+Trae国内版
+ ![18图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image18.png)
+亮起的按键即为统计按键，一开始Trae没有将其添加到工作栏中，调整时出现错误，其反复生成文件，花费较长时间修复6个错误，在进行重构时漏了复制函数导致报错，其他表现良好
+
+Trae国际版
+ ![19图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image19.png)
+### 这是本次 Excalidraw 测试中欠缺的部分。Trae 的 Agent 表现出“过度工程化”的特征：
+· 重构任务（Refactoring）：
+在 Task 2（添加字段）中，Trae 初次修改遗漏了关键文件（如 restore.ts），评分 3.8/5。
+但在自我修复环节，它遭遇了滑铁卢。当用户甩回报错后，Trae 陷入了死循环。它试图自主运行测试 -> 报错 -> 尝试修复 -> 再运行测试 -> 再报错。这种“陷入终端测试出不来”的现象，说明其 Agent 的“停止机制”和“错误反思能力”尚不成熟。它试图完美解决所有问题，却因无法处理复杂的测试环境配置而卡死。
+· 新功能开发（Feature）：
+在 Task 3（Toolbar 统计按钮）中，Trae 虽然成功完成了任务，但过程极其低效。
+o Cursor: 并在几秒钟内定位文件 -> 生成 UI -> 结束。
+o Trae: 生成了大量的临时测试文件，思维链极长，反复验证逻辑。虽然最终结果是好的，但耗时是 Cursor 的数倍。这给人的感觉是“用力过猛”——杀鸡用牛刀，导致开发流畅度大打折扣。
+ 
+### 通义灵码
+ 
+最左侧按键右边增加的按键就是统计，点开之后会遮挡按键，所以没有展示，通义灵码Quest一次完成了工作，而同一测试集中Editor在第一步就没能通过，未能真正读取代码，而是返回常规CSS代码
