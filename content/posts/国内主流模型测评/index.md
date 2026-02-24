@@ -1,5 +1,5 @@
 ---
-title: "Human Skills——国内主流模型测评"
+title: "Human Skills——国际主流模型测评"
 date: 2026-02-23
 draft: false
 tags: ["AI", "国内大模型", "测评"]
