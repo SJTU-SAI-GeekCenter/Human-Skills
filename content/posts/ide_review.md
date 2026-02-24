@@ -480,4 +480,50 @@ Trae最开始出现了图片引用的问题，引用的两张实例图片失效�
 通义灵码
 ![5图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image5.png)
 
-这是通义灵码的电商平台登录后的购物车页面，已经加入了两件商品，在修复错误时其反复进行同一操作，最后经过多轮对话发现问题（在Editor测试下难以发现问题，最后正确运行但不稳定，时灵时不灵，最后切换为Quest模式才终于
+这是通义灵码的电商平台登录后的购物车页面，已经加入了两件商品，在修复错误时其反复进行同一操作，最后经过多轮对话发现问题（在Editor测试下难以发现问题，最后正确运行但不稳定，时灵时不灵，最后切换为Quest模式才终于解决.
+
+Qoder
+作为纯功能实现的任务，qoder在quest模式的支持下有良好的表现，会主动生成详细工作流程，但是对任务理解不够深刻，第一次完成的时候购买物品之后库存不会减少，但是在提出bug之后迅速改正。这也体现出qoder内嵌工作流在测试方面的缺乏。
+![6图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image6.png)
+
+Windsurf
+![7图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image7.png)
+Windsurf在工作完成方面非常出色，只需要少量的提示词就能形成完善的成品，且能自主测试，保证完成度。美中不足的是，windsurf的审美太差了。界面非常丑陋。
+
+Cursor
+Cursor一次就实现了以下的功能，并且可以看到这个美术设计还是比较精致的。
+![8图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image8.png)
+![9图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image9.png)
+![10图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image10.png)
+3.2 Demo 2：模仿《植物大战僵尸》制作游戏
+测试目的：考察AI在创意性项目中的表现，包括Canvas/游戏引擎的使用、动效处理、游戏循环逻辑以及对象管理能力。
+任务描述：要求AI模仿经典游戏《植物大战僵尸》制作一个简易版Demo：
+- 核心玩法：实现“植物”种植、“僵尸”自动移动与攻击逻辑。
+- 交互设计：阳光收集机制、卡片选择与放置。
+- 胜负判定：僵尸到达终点失败，全消灭胜利。
+
+Trae国内版
+![11图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image11.png)
+这是Trae做的植物大战僵尸，在玩家策略适当时可以顺利拿下，一开始做的在僵尸到达最左侧时只能种两个坚果，难以进行，对话后理解并按要求修改
+
+Trae国际版
+Trae值得夸赞的是用很少的时间 and 很短的代码就实现了pvz的基本玩法，代码量是cursor实现的一半，并且一次成功，可以看出其流线型编程设计的底蕴。
+![12图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image12.png)
+
+通义灵码
+![13图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image13.png)
+这是通义灵码做的植物大战僵尸，较有难度，植物种类也比较多，虽然图片可能不是很明显的表现了植物种类（缺少美术资源）（两种模式均完成很好）
+
+Qoder
+![14图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image14.png)
+Qoder做的植物大战僵尸应该是所有demo中可玩性最高的，游戏平衡控制的很好，而且内容量也很大，同时又提示词简单，这反映了qoder在quest模式中针对创意落地的方向下的功夫。
+
+Windsurf
+![15图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image15.png)
+Windsurf的审美一如既往地差，而且功能非常简单，平衡性也一般，但是游戏本身没有出任何bug。
+
+Cursor
+Prompt：帮我生成一个植物大战僵尸的小游戏
+![16图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image16.png)
+
+很快生成好了大致的游戏结构，但是玩法是不正确的，可以看到僵尸在距离向日葵有一段距离的时候向日葵的血量下降了，后来发现是代码逻辑错误，认为僵尸在向日葵同一行左侧就扣血，经过提示修改，效果恢复正常。
