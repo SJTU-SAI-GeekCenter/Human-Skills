@@ -373,11 +373,9 @@ Canva AI 支持聊天交互，会主动确认部分细节，也支持在生成�
 
 在生成风格时， AIPPT 会参考大纲中的提示词，提供3个以上的模板风格供用户选择。 AIPPT 对于通过提示词来提供模板的能力是比较强的，可以根据同一大纲但情景不同提供出不同的模板。比如在宣传社团和社团招新这两个不同的情境，给出了两个较好的示范。
 
+<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/49.png" width="400" />
+<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/50.png" width="400" />
 
-
-| (社团招新) | (社团展示) |
-| :---: | :---: |
-| ![49图](images/ppt_ai/49.png) | ![50图](images/ppt_ai/50.png) |
 
 **（2）配图**
 
