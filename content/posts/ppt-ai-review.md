@@ -296,9 +296,9 @@ Canva AI 支持聊天交互，会主动确认部分细节，也支持在生成�
 ## Beautiful AI 试用测评
 
 ### 1、使用流程简述
-0、 登录 beautiful . ai 网站（需使用 VPN ）->创建演示文稿-> Create With AI
-1、 参照前言，使用 Deepseek 模型生成 PPT 大纲。
-2、 输入生成好的提示词，等待生成大纲后进行交互确认，选择主题风格、图源（网络  /Beautiful 图库/ AI 生成）和语言。
+0、 登录 beautiful . ai 网站（需使用VPN ）->创建演示文稿-> Create With AI
+1、 参照前言，使用 Deepseek 模型生成PPT 大纲。
+2、 输入生成好的提示词，等待生成大纲后进行交互确认，选择主题风格、图源（网络/Beautiful 图库/ AI 生成）和语言。
 3、 生成 PPT
 
 ### 2、核心功能测评
