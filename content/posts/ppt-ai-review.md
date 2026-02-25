@@ -347,18 +347,14 @@ Canva AI 支持聊天交互，会主动确认部分细节，也支持在生成�
 ![43图](images/ppt_ai/43.png)
 
 
-<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/44.png" width="400" height="900" />
-<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/45.png" width="400" height="900"/>
-<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/46.png" width="400" height="900"/>
-<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/47.png" width="400" height="900"/>
-<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/48.png" width="400" height="900"/>
 
-
-| | | |
-| :---: | :---: | :---: |
-| <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/44.png" width="400" /> | <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/45.png" width="400" /> | <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/46.png" width="400" /> |
-| <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/47.png" width="400" /> |  | <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/48.png" width="400" />|
-
+<div style="display: flex; gap: 10px; align-items: stretch;">
+    <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/44.png" style="height: 200px; width: 90px; object-fit: cover;" />
+    <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/45.png" style="height: 200px; width: 90px; object-fit: cover;" />
+    <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/46.png" style="height: 200px; width: 90px; object-fit: cover;" />
+    <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/47.png" style="height: 200px; width: 90px; object-fit: cover;" />
+    <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/48.png" style="height: 200px; width: 90px; object-fit: cover;" />
+</div>
 
 总之，该工具在设计上的能力较为出色，但在提示词处理、语言选择、调整反馈等方面依然有提升潜力，是一款不错的提升效率的设计工具。
 
