@@ -354,6 +354,12 @@ Canva AI 支持聊天交互，会主动确认部分细节，也支持在生成�
 <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/48.png" width="400" />
 
 
+| | | |
+| :---: | :---: | :---: |
+| <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/44.png" width="400" /> | <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/45.png" width="400" /> | <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/46.png" width="400" /> |
+| <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/47.png" width="400" /> |  | <img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/48.png" width="400" />|
+
+
 总之，该工具在设计上的能力较为出色，但在提示词处理、语言选择、调整反馈等方面依然有提升潜力，是一款不错的提升效率的设计工具。
 
 ## AIPPT 试用测评
