@@ -494,5 +494,5 @@ PPT AI 工具能在几十秒内根据大纲生成结构完整的 PPT 初稿，�
 ### 附件下载
 本文测评所使用的 AI 人设指令集已整理为文档，欢迎下载参考：
 
-[点击下载：附件：AI人设——做ppt.docx](https://github.com/claptrapp222/Human-Skills/blob/main/static/附件：AI人设——做ppt.docx)
+[点击下载：附件：AI人设——做ppt.docx](https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/files/%E9%99%84%E4%BB%B6%EF%BC%9AAI%E4%BA%BA%E8%AE%BE%E2%80%94%E2%80%94%E5%81%9Appt(1).docx)
 *本文由 SJTU-SAI GeekCenter 成员测评产出。*
