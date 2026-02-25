@@ -347,11 +347,11 @@ Canva AI 支持聊天交互，会主动确认部分细节，也支持在生成�
 ![43图](images/ppt_ai/43.png)
 
 
-<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/44.png" width="400" />
-<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/45.png" width="400" />
-<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/46.png" width="400" />
-<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/47.png" width="400" />
-<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/48.png" width="400" />
+<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/44.png" width="400" height="900" />
+<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/45.png" width="400" height="900"/>
+<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/46.png" width="400" height="900"/>
+<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/47.png" width="400" height="900"/>
+<img src="https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/static/img/48.png" width="400" height="900"/>
 
 
 | | | |
