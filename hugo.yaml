@@ -116,9 +116,15 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+    goldmark:
+      renderer:
+        unsafe: true
 
 outputs:
   home:
     - HTML
     - RSS
     - JSON # necessary for search
+
+ignoreLogs:
+  - 'warning-goldmark-raw-html'  
