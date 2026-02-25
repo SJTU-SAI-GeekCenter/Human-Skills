@@ -3,51 +3,20 @@ date: '2026-02-21T14:03:33+08:00'
 title: 'Human Skills: Deep Evaluation of Frontier AI Tools Across Multiple Domains'
 weight: 1
 math: true
-description: 'Human Skills 项目基本介绍'
-summary: "Abstract shown in cards, to be finished"
+description: '上海交通大学人工智能学院冬修计划——极客中心 Human Skills AI 测评项目序言'
+summary: "上海交通大学人工智能学院冬修计划——极客中心 Human Skills AI 测评项目序言"
 ---
 
-## Introductions
+# HumanSkills-AI
 
-当前 AI 领域信息过载，AI 产品和工具不断涌现，但真正基于复杂工程实践、具备深度洞察的测评和使用说明依然稀缺。该项目中，将有学院提供资金支持，成员将有机会使用一线 AI 前沿工具并展开严谨的测试与案例复现，在技术上进行深度拆解，并形成具有行业参考价值的技术博客，并最终贡献至开源社区。  
+当前 AI 领域信息过载，AI 产品和工具不断涌现，但真正基于复杂工程实践、具备深度洞察的测评和使用说明依然稀缺。上海交通大学人工智能学院的同学们在学院支持下，利用寒假发起了“Human Skills——AI测评”项目，使用一线 AI 前沿工具并展开测试与案例复现，在技术上进行深度拆解，形成了具有行业参考价值的技术博客，并贡献至开源社区，为用户提供一份兼具深度与实用性的参考指南。
 
+模型侧，我们聚焦国内外主流大模型，包括DeepSeek、文心一言、通义千问、豆包、Kimi、元宝等国内模型，以及GPT、Claude、Gemini、Grok等国际顶尖模型，重点考察其解析复杂需求和提出可执行解决措施的能力。
 
-## Markdown 使用
+产品侧，我们将测评范围延伸至更贴近日常使用的AI工具，覆盖了编程开发（IDE类和CLI类）、办公辅助（PPT生成和文档写作）以及手机智能体多个场景，旨在探究AI如何切实提高人们的生产效率。
 
-### Basics
+在测评过程中，我们坚持从用户角度出发，以深度测评替代广度测评，以贴合生活场景的复杂情境，真实展现各模型与产品的缺陷与亮点。
 
-- **加粗文本**
-- *斜线文本*
-- `inline code`
+本系列7篇测评报告，开源至本网站，请读者们多多支持。
 
-## Maths
-
-Inline Math: $E = m c^2$
-
-Block math:
-
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
-
-
-### Code
-
-```python
-print("Hello World")
-```
-
-### Tables
-
-| 工具名称 | 类型 (Search/Operate) | 基本介绍 | 配置 |
-| --- | --- | --- | --- |
-| `search_web` | Search | 通用 Web 搜索引擎 (Google, ZHIPU) | ⚠️ Need `ZHIPU_API_KEY` & `SERPER_API_KEY` |
-| `search_github` | Search | 搜索 Github 代码库、源码、用户、Issue 及 PR | ⚠️ Need `GITHUB_TOKEN` |
-| `search_scholar` | Search | 检索学术论文及文献 (Google Scholar, DBLP, Arxiv) | ⚠️ Need `SERPER_API_KEY` |
-
-
-### Images
-
-文件存放在 `assets/images/demo.png`, 使用 `![Image](images/demo.png)`
-
-![Image](images/geek_center_white.png)
+我们衷心希望这些测评报告，能在喧嚣的AI时代，为用户们提供一份独特而宝贵的视角。

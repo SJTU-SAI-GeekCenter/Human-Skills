@@ -69,11 +69,11 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/SJTU-SAI-GeekCenter/Human-Skills"
     - name: web
-      url: "https://github.com/"
+      url: "https://sjtu-sai-geekcenter.github.io/Human-Skills/"
     - name: wechat
-      url: "https://example.org"
+      url: "https://soai.sjtu.edu.cn/"
 
   cover:
     hidden: false # hide everywhere but not in structured data
@@ -81,7 +81,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/SJTU-SAI-GeekCenter/Human-Skills/content"
+    URL: "https://github.com/SJTU-SAI-GeekCenter/Human-Skills/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
