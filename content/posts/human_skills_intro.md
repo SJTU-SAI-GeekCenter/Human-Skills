@@ -20,3 +20,13 @@ summary: "上海交通大学人工智能学院冬修计划——极客中心 Hum
 本系列7篇测评报告，开源至本网站，请读者们多多支持。
 
 我们衷心希望这些测评报告，能在喧嚣的AI时代，为用户们提供一份独特而宝贵的视角。
+
+## Table of Contents
+
+- [国际主流模型测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/international_llm/)
+- [国际主流模型测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/domestic_llm/)
+- [文档生成类 AI 测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/document_ai_review/)
+- [编程开发 IDE 类测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/ide_review/)
+- [编程开发 CLI 类测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/cli_review/)
+- [PPT 生成类 AI 测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/ppt-ai-review/)
+- [手机智能体测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/mobile_agent_review/)

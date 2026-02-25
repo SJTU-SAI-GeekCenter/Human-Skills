@@ -1,8 +1,6 @@
 baseURL: "https://sjtu-sai-geekcenter.github.io/Human-Skills/"
 languageCode: "zh-cn"
 title: Human Skills
-pagination:
-  pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
