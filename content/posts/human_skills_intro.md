@@ -5,7 +5,7 @@ weight: 1
 math: true
 description: '上海交通大学人工智能学院冬修计划——极客中心 Human Skills AI 测评项目序言'
 summary: "上海交通大学人工智能学院冬修计划——极客中心 Human Skills AI 测评项目序言"
-author: "SJTU-SAI Geek Center：陈佳宜，杨希渊，阮墨文"
+author: "SJTU-SAI Geek Center：陈佳宜，周轩逸"
 ---
 
 **项目负责人：陈佳宜，杨希渊，阮墨文**
