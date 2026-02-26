@@ -467,8 +467,7 @@ Cursor 的代码补全（被称为 Cursor Tab）是目前业界的标杆。它�
 - 购物车逻辑：添加商品、移除商品、数量增减、实时计算总价。
 - 模拟结算：模拟订单生成与支付流程。
 Trae国内版
-测试测试
-![1图](images/idea_test/image1.png)
+![1图](https://github.com/claptrapp222/Human-Skills/blob/main/static/img/idea_test/image1.png)
 这是Trae做的电商平台这是已用虚拟账号登录的页面，可以点击商品并加入购物车，虽然画质不是很美观（原来的登录系统有问题，在多次修改后画面变难看了）
 
 Trae国际版
