@@ -468,8 +468,9 @@ Cursor 的代码补全（被称为 Cursor Tab）是目前业界的标杆。它�
 - 模拟结算：模拟订单生成与支付流程。
 Trae国内版
 
-如何呢?
-![1图](https://github.com/SJTU-SAI-GeekCenter/Human-Skills/blob/main/assets/images/ide_review/image1.png)
+如何呢?啊啊啊
+
+![1图](https://raw.githubusercontent.com/SJTU-SAI-GeekCenter/Human-Skills/main/static/img/idea_test/image1.png)
 这是Trae做的电商平台这是已用虚拟账号登录的页面，可以点击商品并加入购物车，虽然画质不是很美观（原来的登录系统有问题，在多次修改后画面变难看了）
 
 Trae国际版
