@@ -5,7 +5,10 @@ weight: 1
 math: true
 description: '上海交通大学人工智能学院冬修计划——极客中心 Human Skills AI 测评项目序言'
 summary: "上海交通大学人工智能学院冬修计划——极客中心 Human Skills AI 测评项目序言"
+author: "SJTU-SAI Geek Center：陈佳宜，杨希渊，阮墨文"
 ---
+
+**项目负责人：陈佳宜，杨希渊，阮墨文**
 
 # HumanSkills-AI
 
@@ -23,10 +26,10 @@ summary: "上海交通大学人工智能学院冬修计划——极客中心 Hum
 
 ## Table of Contents
 
-- [国际主流模型测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/international_llm/)
 - [国内主流模型测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/domestic_llm/)
-- [文档生成类 AI 测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/document_ai_review/)
+- [国际主流模型测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/international_llm/)
 - [编程开发 IDE 类测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/ide_review/)
 - [编程开发 CLI 类测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/cli_review/)
 - [PPT 生成类 AI 测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/ppt-ai-review/)
+- [文档生成类 AI 测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/document_ai_review/)
 - [手机智能体测评](https://sjtu-sai-geekcenter.github.io/Human-Skills/posts/mobile_agent_review/)
