@@ -134,7 +134,7 @@ TRAE是字节开发的AI IDE，其能够理解需求、调用工具并独立完�
 * **模型支持**：NPC
 * **使用价格**：顶级
 
-* ### 三、具体评价
+* #### 三、具体评价
 
 #### 界面布局
 Trae包含solo模式与IDE模式，由项目文件夹，编辑器，AI对话框组成。
@@ -242,7 +242,7 @@ Trae 在多语言支持（特别是中文）方面做得很好。
 * **模型支持**：NPC
 * **使用价格**：人上人
 
-* ### 三、具体评价
+* #### 三、具体评价
 
 #### 界面布局
 通义灵码包含Editor与quest模式，Editor界面与VScode出最右端AI对话框外，基本无明显不同，Quest模式左侧有对话框，右侧有编辑器，但没有文件目录
@@ -290,7 +290,7 @@ Qoder 是由阿里巴巴倾力打造的一款企业级 AI IDE。它深度集成�
 * **模型支持**：人上人
 * **使用价格**：人上人
 
-* ### 三、具体评价
+* #### 三、具体评价
 
 **界面布局：**
 Qoder采用双功能的形式，包括更传统的editor和更简介的quest模式，用户可以方便地在两个模式中进行切换。其图标按钮总体风格简介明了，便于操作。
@@ -461,7 +461,7 @@ Cursor 的代码补全（被称为 Cursor Tab）是目前业界的标杆。它�
 
 为了验证AI IDE在真实开发场景中的表现，我们设计了三个不同维度的测试案例，分别考察逻辑构建能力、创意实现能力以及大型项目重构能力。
 
-3.1 Demo 1：模拟电商购物系统
+### 3.1 Demo 1：模拟电商购物系统
 测试目的：考察AI对复杂业务逻辑的理解能力、数据结构的设计能力以及基本的前后端交互实现。任务描述：要求AI从零构建一个简易的电商购物系统，需包含以下核心功能：
 - 商品展示：展示商品列表（图片、价格、名称）。
 - 购物车逻辑：添加商品、移除商品、数量增减、实时计算总价。
@@ -500,7 +500,7 @@ Cursor一次就实现了以下的功能，并且可以看到这个美术设计�
 ![](https://raw.githubusercontent.com/SJTU-SAI-GeekCenter/Human-Skills/main/static/img/idea_test/image8.png)
 ![](https://raw.githubusercontent.com/SJTU-SAI-GeekCenter/Human-Skills/main/static/img/idea_test/image9.png)
 ![](https://raw.githubusercontent.com/SJTU-SAI-GeekCenter/Human-Skills/main/static/img/idea_test/image10.png)
-3.2 Demo 2：模仿《植物大战僵尸》制作游戏
+### 3.2 Demo 2：模仿《植物大战僵尸》制作游戏
 测试目的：考察AI在创意性项目中的表现，包括Canvas/游戏引擎的使用、动效处理、游戏循环逻辑以及对象管理能力。
 任务描述：要求AI模仿经典游戏《植物大战僵尸》制作一个简易版Demo：
 - 核心玩法：实现“植物”种植、“僵尸”自动移动与攻击逻辑。
